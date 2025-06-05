@@ -5,41 +5,38 @@ let subtraction = 0;
 function numberGeneration(firstNumber, secondNumber){
 
 firstNumber = Math.floor(Math.random() * 10)
-
 secondNumber = Math.floor(Math.random() * 10)
 
-if (firstNumber > secondNumber)
 
-console.log(firstNumber + "-" + secondNumber)
+if (firstNumber < secondNumber){
+let temp = firstNumber;
+firstNumber = secondNumber;
+secondNumber = temp;}
 
-else (firstNumber < secondNumber)
-	
- 	subtraction = firstNumber - secondNumber;
-
-return subtraction
+   console.log(firstNumber + " - " + secondNumber);
+    return firstNumber - secondNumber;
 }
 
-let count = 0;
+let countAns = 0;
 
- for(let countAns = 1; countAns <= 10; countAns++){
+ for(let count = 1; count <= 10; count++){
 
- console.log("input the subtraction of this two numbers: " )
+console.log("Input " + count + ": the subtraction of these two numbers:\n");
+
  let answer = numberGeneration();
-
- let userinput = prompt("enter the answer to the question: " )
+ let userinput = prompt("enter the answer to the question:" );
   
+
   if(answer == userinput){
   console.log("you entered the correct ans: ");
-	//countAns++;
+	countAns++;
 }
 
-else if(userinput != answer)
-console.log("You got the answer wrong, try again: ")
- 
-
+else{console.log("you got it wrong, the answer to the question is: " + answer + "\n" );}
 }
 
-	//console.log("your final score is " +countAns )
+console.log("You got " + countAns + " out of 10 questions correct.");
+
 
 
 
