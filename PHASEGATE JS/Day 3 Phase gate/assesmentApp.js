@@ -55,9 +55,9 @@ while (game) {
             console.log("C: Asia");
             console.log("D: South America");
 
-            let ansQuestion6 = prompt();
+            let ansQuestion3 = prompt();
 
-            if (ansQuestion6 === "A" || ansQuestion6 === "a") {
+            if (ansQuestion3 === "A" || ansQuestion3 === "a") {
                 console.log("correct answer");
             } else {
                 console.log("wrong ans");
