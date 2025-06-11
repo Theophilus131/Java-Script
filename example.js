@@ -8,12 +8,13 @@
 for(let i = 1; i <= 15; i++){
 
 if(15 % 5 === 0){
-console.log(`${i}-  Asap frontend`);
+console.log(`${i} - Asap frontend`);
 	}
 
 else if(i % 2 === 1){
 console.log(`${i} - Asap`);
  }
+
 else{
 console.log(`${i} - frontend `);
 }
