@@ -8,8 +8,15 @@
 // curreny converter
 // aud = usd * 1.5
 
-let USD = 1200
+//let USD = 1200
 
-let AUD = 1200 * 1.5
+//let AUD = 1200 * 1.5
 
-console.log("AUD: " + AUD);
+//console.log("AUD: " + AUD);
+
+
+//difference between the double equals and triple equals
+
+let comparison = '4' === 4
+
+console.log(comparison);
