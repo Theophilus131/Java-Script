@@ -41,11 +41,10 @@ body{
     height: 50px; 
  }
 
- .box2 .second-header {
-  
+ .box2 .second-header a{
+    color:white;
      border: none;
-     
-    
- }
+     padding: 10px;
+     text-align: right }  
 
  
