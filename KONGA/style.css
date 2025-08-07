@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-   margin: 0px ; 
-}
+
+
 .title{
     width: 100%;
   
+}
+
+.title img{
+    max-width: 920px;
 }
 
 .box1{    
@@ -41,10 +44,47 @@ body{
     height: 50px; 
  }
 
- .box2 .second-header a{
-    color:white;
-     border: none;
-     padding: 10px;
-     text-align: right }  
+    .okey{
+        background-color: rgb(242, 20, 168);
+        
+        
+        
+    }
 
- 
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+        gap:200px;
+        
+    }
+
+    .second a{
+            color: #fff;
+            
+    }
+
+
+
+    .drop-down{
+        background-color: rgb(167, 12, 12);
+    }
+
+    .drop-down-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .drop-down-item li{
+        list-style: none;
+        padding: 10px;
+    }
+    .drop-down-item li a{
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
