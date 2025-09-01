@@ -1,0 +1,16 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "main": "function.js",
+  "scripts": {
+    "start":"nodemon function.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^30.0.5"
+  }
+}

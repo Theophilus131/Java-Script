@@ -46,15 +46,16 @@
 
     .okey{
         background-color: rgb(242, 20, 168);
-        
-        
-        
+  
     }
+
 
     .list-item {
         display: flex;
         justify-content: space-between;
         gap:200px;
+       
+      
         
     }
 
@@ -66,7 +67,7 @@
 
 
     .drop-down{
-        background-color: rgb(167, 12, 12);
+        background-color: rgb(188, 69, 69);
     }
 
     .drop-down-item{
@@ -77,14 +78,166 @@
 
     }
 
-    .drop-down-item li{
-        list-style: none;
-        padding: 10px;
+    .drop-down-item li a:hover{
+        background-color: white;
+        color: black;
+        
     }
     .drop-down-item li a{
         color: #fff;
-        font-size: 14px;
+        font-size: 20px;
         text-decoration: none;
-        padding: 10px;
-        
+        padding: 30px;
+        justify-content: space-evenly;
+        list-style: none;
+        margin: 0;
+        font-size: larger;
+          
     }
+
+    /* .logoDiv {
+
+ 
+    }  */
+
+.logoOne img {
+ display: flex;
+  position: absolute;
+  width: 66%;
+  height: 66%; 
+  opacity: 0;
+  animation: fade 35s infinite;
+}
+.logoOne img:nth-child(1) { animation-delay: 0s; }
+.logoOne img:nth-child(2) { animation-delay: 5s; }
+.logoOne img:nth-child(3) { animation-delay: 10s; }
+.logoOne img:nth-child(4) { animation-delay: 15s; }
+.logoOne img:nth-child(5) { animation-delay: 20s; }
+.logoOne img:nth-child(6) { animation-delay: 25s; }
+.logoOne img:nth-child(7) { animation-delay: 30s; }
+
+/* .logoOne {
+  position: relative;
+  width: 800px;   
+  height: 460px; 
+  overflow: hidden;
+} */
+
+/* Keyframes for fade in/out */
+@keyframes fade {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  20% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.adsimg{
+    display: flex;
+    align-items: flex-start;
+    width: 40px;
+    
+}
+
+.banner_right{
+    display: flex;
+    display:grid;
+    gap: 10px;
+    margin-left: 900px;
+  
+}
+
+
+
+.down {
+  overflow-x: auto;     
+  white-space: nowrap;  
+  padding: 10px;
+  
+}
+
+.imageOne {
+  display: flex;
+  gap: 15px;  
+           
+}
+
+.Todays_deals {
+  background: #a11749;      
+  padding: 12px 20px;      
+  border-radius: 8px;       
+  display: flex;           
+  justify-content: center;  
+  align-items: center;      
+  width: 100%;              
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  
+}
+
+.Todays_deals p {
+  font-size: 20px;          
+  font-weight: bold;        
+  color: #ffffff;                    
+  text-transform: uppercase;
+  letter-spacing: 2px;     
+}
+
+.panalsImages{
+   display:flex;
+   justify-content:space-around;
+   align-items:flex-start;
+   margin: 20px;
+   gap: 20px;
+ 
+}
+
+.star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: #a11749;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.star img{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+
+}
+
+.pic_one{
+    text-align: center;
+    font-size: 14px;
+    color: #a11749;
+    margin: 4px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    

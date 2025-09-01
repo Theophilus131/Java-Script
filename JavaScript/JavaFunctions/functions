@@ -1,0 +1,12 @@
+function higherFunction(){
+
+    console.log("higher function")
+}
+
+function lowerFunction(callBack){
+
+     console.log("lower function")
+     callBack()
+}
+
+lowerFunction(higherFunction)
